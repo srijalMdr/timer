@@ -13,6 +13,7 @@ function startTimer() {
   if (!timer) {
     timer = setInterval(updateTimer, 1000);
     document.querySelector("body").style.backgroundColor = "#86c232";
+    document.querySelector(".main").style.backgroundColor = "#A9C46C";
   }
 }
 
@@ -45,7 +46,8 @@ function togglePauseResume() {
     timer = null;
     pauseResumeButton.textContent = "Resume";
     // document.querySelector("body").style.backgroundColor = "#D84040";
-    document.querySelector("body").style.backgroundColor = "#e43d12";
+    document.querySelector("body").style.backgroundColor = "#ED2B2A";
+    document.querySelector(".main").style.backgroundColor = "#F15A59";
   } else {
     startTimer();
     pauseResumeButton.textContent = "Pause";
