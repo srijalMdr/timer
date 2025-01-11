@@ -9,6 +9,7 @@ body {
   background: #f3f3f3;
   flex-direction: column;
   margin: 0;
+  transition: background-color 0.3s;
 }
 
 .main {
@@ -21,6 +22,7 @@ body {
   width: 500px;
   height: 400px;
   text-align: center;
+  transition: background-color 0.3s;
 }
 
 .timer-circle {
